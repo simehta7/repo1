@@ -117,7 +117,7 @@ jobs:
     steps:
       - name: Trigger Workflow in Another Repository
         run: |
-          repo_owner="American-Institutes-for-Research"
+          repo_owner="simehta7"
           repo_name="repo2"
           event_type="update_workflows"
 
