@@ -21,7 +21,7 @@ jobs:
   build_branch:
     name: Build and Deploy the Application
     runs-on: [ansible-runner]
-    timeout-minutes: 360 # Set the workflow timeout to 6 hours (adjust as needed to allow for the build and deployment to complete)
+    timeout-minutes: 360
 
     steps:
       - uses: AutoModality/action-clean@v1
